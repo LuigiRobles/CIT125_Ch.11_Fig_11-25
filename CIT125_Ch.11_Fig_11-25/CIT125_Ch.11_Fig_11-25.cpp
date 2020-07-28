@@ -29,9 +29,9 @@ int main()
 	if (choice > 0 && choice < 5) //checking if selection is within Menu range
 	{
 		cout << "Number of American dollars: ";
-		cin >> dollars;
+		cin >> dollars; //input for amount of American dollars to convert
 		cout << endl;
-		if (choice == 1) //nested if..else if.. statements
+		if (choice == 1) //nested if..else if.. statements for Menu selection and correct currency rate
 			cout << "Euros: ";
 		else if (choice == 2)
 			cout << "British pounds: ";
